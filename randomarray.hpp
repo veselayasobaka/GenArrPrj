@@ -6,7 +6,7 @@ class RandomArray
 protected:
     uint32_t array_length_ = 0;
 public:
-    RandomArray();
+    RandomArray(uint32_t);
     ~RandomArray();
     virtual void array_export() = 0;
 };
