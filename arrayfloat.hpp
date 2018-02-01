@@ -9,7 +9,7 @@ private:
 public:
     ArrayFloat(uint32_t length, float left_border, float right_border);
     ~ArrayFloat();
-    void array_export();
+    virtual void array_export() override;
 };
 
 #endif // ARRAYFLOAT_HPP

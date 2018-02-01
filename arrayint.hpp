@@ -9,7 +9,7 @@ private:
 public:
     ArrayInt(uint32_t length, int32_t left_border, int32_t right_border);
     ~ArrayInt();
-    void array_export();
+    virtual void array_export() override;
 };
 
 #endif // ARRAYINT_HPP
