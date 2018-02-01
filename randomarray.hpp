@@ -3,7 +3,7 @@
 #include <stdint.h>
 class RandomArray
 {
-private:
+protected:
     uint32_t array_length_ = 0;
 public:
     RandomArray();

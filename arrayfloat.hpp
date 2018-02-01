@@ -1,5 +1,5 @@
-#ifndef ARRAYINT_HPP
-#define ARRAYINT_HPP
+#ifndef ARRAYFLOAT_HPP
+#define ARRAYFLOAT_HPP
 #include "randomarray.hpp"
 #include <cstddef>
 class ArrayFloat: public RandomArray
@@ -12,4 +12,4 @@ public:
     void array_export();
 };
 
-#endif // ARRAYINT_HPP
+#endif // ARRAYFLOAT_HPP
