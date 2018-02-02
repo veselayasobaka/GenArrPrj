@@ -1,6 +1,5 @@
 #include <iostream>
-#include "arrayint.hpp"
-#include "arrayfloat.hpp"
+#include "randomarray.hpp"
 using namespace std;
 int main(int argc, char *argv[])
 {
@@ -24,13 +23,13 @@ int main(int argc, char *argv[])
                 cin >> right_border_int;
                 if (left_border_int < right_border_int)
                 {
-                    ArrayInt ArrayI(array_length, left_border_int, right_border_int);
+                    RandomArray<int32_t> ArrayI(array_length, left_border_int, right_border_int);
                     ArrayI.array_export();
                     cout << "Array of int numbers with " << array_length << " elements was succesfully created in the current directory!" << endl;
                 }
                 else
                 {
-                    ArrayInt ArrayI(array_length, right_border_int, left_border_int);
+                    RandomArray<int32_t> ArrayI(array_length, right_border_int, left_border_int);
                     ArrayI.array_export();
                     cout << "Array of int numbers with " << array_length << " elements was succesfully created in the current directory!" << endl;
                 }
@@ -43,13 +42,13 @@ int main(int argc, char *argv[])
                 cin >> right_border_float;
                 if (left_border_float < right_border_float)
                 {
-                    ArrayFloat ArrayF(array_length, left_border_float, right_border_float);
+                    RandomArray<float> ArrayF(array_length, left_border_float, right_border_float);
                     ArrayF.array_export();
                     cout << "Array of float numbers with " << array_length << " elements was succesfully created in the current directory!" << endl;
                 }
                 else
                 {
-                    ArrayFloat ArrayF(array_length, right_border_float, left_border_float);
+                    RandomArray<float> ArrayF(array_length, right_border_float, left_border_float);
                     ArrayF.array_export();
                     cout << "Array of float numbers with " << array_length << " elements was succesfully created in the current directory!" << endl;
                 }
