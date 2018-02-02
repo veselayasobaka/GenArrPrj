@@ -1,6 +1,0 @@
-#!/bin/bash
-cd /prj/cpp/GenArPrj/for_git
-git add .
-git commit -m "new version"
-git push -u origin master
-
