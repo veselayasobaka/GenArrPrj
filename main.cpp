@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
             cin >> left_border_int;
             cin >> right_border_int;
                 ArrayInt ArrayI(array_length, left_border_int, right_border_int);
+                ArrayI.array_export();
                 cout << "Array of int numbers with " << array_length << " elements was succesfully created in the current directory!" << endl;
                 break;
             }
@@ -32,6 +33,7 @@ int main(int argc, char *argv[])
             cin >> left_border_float;
             cin >> right_border_float;
                 ArrayFloat ArrayF(array_length, left_border_float, right_border_float);
+                ArrayF.array_export();
                 cout << "Array of float numbers with " << array_length << " elements was succesfully created in the current directory!" << endl;
                 break;
             }

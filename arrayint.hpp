@@ -5,7 +5,8 @@
 class ArrayInt: public RandomArray
 {
 private:
-    int *array_ = NULL;
+    int32_t *array_ = NULL;
+    int32_t l, r;
 public:
     ArrayInt(uint32_t length, int32_t left_border, int32_t right_border);
     ~ArrayInt();

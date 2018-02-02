@@ -5,7 +5,7 @@
 class ArrayFloat: public RandomArray
 {
 private:
-    int *array_ = NULL;
+    float *array_ = NULL;
 public:
     ArrayFloat(uint32_t length, float left_border, float right_border);
     ~ArrayFloat();
